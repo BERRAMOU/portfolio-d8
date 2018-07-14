@@ -6,7 +6,7 @@ sites/example.sites.php
 
 # Ignore paths that contain generated content.
 files/
-sites/*/files
+sites/*/files/
 sites/*/private
 sites/*/translations
 
@@ -37,7 +37,7 @@ xmlrpc.php
 /misc
 /profiles
 /scripts
-
+sites/default/files/php/twig/
 .gitignore
 .idea/inspectionProfiles/
 sites/default/files/bootstrap/
