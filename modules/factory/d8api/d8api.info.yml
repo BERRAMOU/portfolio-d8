@@ -1,0 +1,6 @@
+name: D8 Api Tuto Module
+type: module
+description: 'D8 Api Tuto Module.'
+package: Factory
+# version: VERSION
+core: 8.x

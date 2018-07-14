@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Allows users to create and organize related content in an outline.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+/**
+ * Implements hook_theme().
+ */
+function factory_core_theme($existing, $type, $theme, $path){
+
+}

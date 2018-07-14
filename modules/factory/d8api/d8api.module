@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Allows users to create and organize related content in an outline.
+ */
+
+use Drupal\Core\Access\AccessResultForbidden;
+
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function d8api_form_node_form_alter(&$form, Drupal\Core\Form\FormStateInterface $form_state){
+ //- MENU SETTINGS
+  $form["menu"]['#open']                 = TRUE;
+  //- COMMENT SETTINGS
+  $form["comment"]["widget"][0]['#open'] = TRUE;
+}
+
+/*function d8api_node_access(\Drupal\node\NodeInterface $node, $op, \Drupal\Core\Session\AccountInterface $account) {
+  $access = new AccessResultForbidden();
+  return $access;
+}*/
+
+/**
+ * Implements hook_module_implements_alter().
+ */
+/*function d8api_module_implements_alter(&$implementations, $hook){
+  switch ($hook) {
+    // Move our hook_form_FORM_ID_alter() implementation to the end of the list.
+    case 'form_alter':
+      $group = $implementations['d8api'];
+      unset($implementations['d8api']);
+      $implementations['d8api'] = $group;
+      break;
+  }
+}*/

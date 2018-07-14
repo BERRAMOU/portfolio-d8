@@ -1,0 +1,4 @@
+services:
+  plugin.manager.d8api:
+    class: 'Drupal\d8api\Plugin\Animal\AnimalManager'
+    parent: default_plugin_manager
