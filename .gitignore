@@ -9,7 +9,7 @@ files/
 sites/*/files/
 sites/*/private
 sites/*/translations
-
+.idea/
 # Ignore default text files
 robots.txt
 /CHANGELOG.txt
