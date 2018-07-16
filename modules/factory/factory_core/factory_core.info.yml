@@ -1,6 +1,0 @@
-name: Factory Core Module
-type: module
-description: 'Factory Core Module.'
-package: Factory
-# version: VERSION
-core: 8.x
