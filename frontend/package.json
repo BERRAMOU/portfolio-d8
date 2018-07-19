@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-gulp",
+  "version": "1.0.0",
+  "description": "Gulp dependencies for portfolio theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BERRAMOU/portfolio-d8.git"
+  },
+  "author": "Berramou",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-sass": "~3.1.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-imagemin": "~3.1.1",
+    "imagemin-pngquant": "^4.2.0"
+  },
+  "dependencies": {
+    "imagemin-pngcrush": "^5.1.0"
+  }
+}

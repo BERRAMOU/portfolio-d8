@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<div class="container" id="app">
+        <div v-for='movie in listMovies'>
+           <h4> {{ movie.title[0].value }} </h4>
+            <p>
+                {{ movie.body[0].value }}
+            </p>
+
+            <img :src="movie.field_image[0].url">
+            <hr>
+        </div>
+</div>
+
+<script type="text/javascript" src="assets/js/vue.js"></script>
+<script type="text/javascript" src="assets/js/vue-resource.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
