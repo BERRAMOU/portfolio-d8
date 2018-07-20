@@ -1,0 +1,14 @@
+name: AY
+type: theme
+description: AY base theme for Drupal.
+screenshot: screenshot.png
+core: 8.x
+engine: twig
+type: theme
+
+libraries:
+  - ay/global-css
+  - ay/global-js
+
+stylesheets-remove:
+  - core/themes/stable/css/system/components/align.module.css

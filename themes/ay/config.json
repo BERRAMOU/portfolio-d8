@@ -1,0 +1,50 @@
+{
+  "name": "AY",
+  "description": "Azz-eddine & Youness",
+  "browserSyncProxy" : "dev.ay.com",
+  "bowerDir": "./lib/bower_components",
+  "css": {
+    "file" : "styles.scss",
+    "src": [
+      "scss/**/*.scss"
+    ],
+    "dest": "assets/css",
+    "includePaths": [
+      "./bower_components/bootstrap-sass/assets/stylesheets",
+      "./bower_components/bootstrap-select/sass/",
+      "./bower_components/slick-carousel/"
+    ]
+  },
+  "js": {
+    "file" : "scripts.js",
+    "src": [
+      "js/**/*.js",
+      "./bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js",
+      "./bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js",
+      "./bower_components/bootstrap-select/dist/js/bootstrap-select.min.js",
+      "./bower_components/slick-carousel/slick/slick.min.js",
+      "./bower_components/jquery/dist/jquery.min.js"
+    ],
+    "dest": "assets/js"
+  },
+  "images": {
+    "src": [
+      "images/**/*"
+    ],
+    "dest": "assets/images/"
+  },
+  "fonts": {
+    "src": [
+      "./bower_components/bootstrap-sass/assets/fonts/**/**.*",
+      "./bower_components/slick-carousel/slick/fonts/**/**.*",
+      "./fonts/**/**.*"
+    ],
+    "dest": "./assets/fonts/"
+  },
+  "html": {
+    "src": [
+      "./pages/**/*"
+    ],
+    "dest": ""
+  }
+}
